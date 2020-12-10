@@ -1,0 +1,64 @@
+/* general page layout **********/
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.jumbotron {
+    margin-bottom: 0;
+}
+
+.container {
+    margin-top: 30px;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+/* brand name **********/
+.brand-name {
+    font-family: Consolas, monaco, monospace;
+    color: white;
+}
+
+.letters-class {
+    font-weight: bold;
+}
+
+.letter-l, .brand-p {
+    color: #008080
+}
+
+/* navigation **********/
+.navbar {
+    border: none;
+    border-radius: 0;
+    background-color: #1a1a1a !important;
+    color: white;
+}
+
+.navbar-custom {
+    background-color: #1a1a1a;
+    color: white;
+}
+
+#jumbo-header {
+    background-color: #1a1a1a;
+    border: none;
+    border-radius: 0;
+}
+
+/* footer **********/
+.footer {
+    margin-top: 30px;
+    flex-shrink: 0;
+    background-color: #1a1a1a;
+    border: none;
+    border-radius: 0;
+    color: white;
+}
